@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Shoe</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Edit Shoe</h1>
+    <form action="/shoes/update/<%= shoe._id %>" method="post">
+        Brand: <input type="text" name="brand" value="<%= shoe.brand %>" required><br>
+        Model: <input type="text" name="model" value="<%= shoe.model %>" required><br>
+        Size: <input type="number" name="size" value="<%= shoe.size %>" required><br>
+        <button type="submit">Update Shoe</button>
+    </form>
+</body>
+</html>

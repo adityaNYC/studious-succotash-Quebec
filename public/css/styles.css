@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #31665b;
+    color: rgb(12, 12, 12);
+    border: blanchedalmond;
+    padding: 10px 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}

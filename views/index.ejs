@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shoe Catalog</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Shoe Catalog</h1>
+    <a href="/add">Add New Shoe</a>
+    <ul>
+        <% shoes.forEach(shoe => { %>
+            <li>
+                <%= shoe.brand %> - <%= shoe.model %> (Size: <%= shoe.size %>)
+                <form action="/shoes/delete/<%= shoe._id %>" method="post" style="display: inline;">
+                    <input type="submit" value="Delete">
+                </form>
+                <a href="/shoes/edit/<%= shoe._id %>" style="background-color: #f0ad4e; color: white; padding: 5px 10px; text-decoration: none; border-radius: 5px; margin-left: 10px;">Edit</a>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>
