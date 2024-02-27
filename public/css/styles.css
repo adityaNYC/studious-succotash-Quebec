@@ -3,6 +3,13 @@ body {
     padding: 20px;
 }
 
+body {
+    background-image: url('https://img.freepik.com/premium-photo/fashion-stylish-sneakers-with-flying-laces-running-sports-shoes-orange-background-close-up_179369-778.jpg');  
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+  
 form {
     margin-bottom: 20px;
 }
@@ -13,7 +20,7 @@ input[type="text"], input[type="number"] {
 
 button {
     cursor: pointer;
-    background-color: #31665b;
+    background-color: #e2eeecb0;
     color: rgb(12, 12, 12);
     border: blanchedalmond;
     padding: 10px 15px;
@@ -27,3 +34,36 @@ ul {
 li {
     margin-bottom: 10px;
 }
+
+footer {
+    background-color: #f8f5f5;
+    color: rgb(8, 5, 5);
+    padding: 0px;
+    text-align: center;
+}
+
+header {
+    background-color: #8295aaa8;
+    color: rgb(17, 17, 17);
+    padding: 1px 0;
+    text-align: center;
+    border-bottom: 2px solid #0056b3;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
